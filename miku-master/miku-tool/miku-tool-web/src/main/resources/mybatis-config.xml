@@ -1,0 +1,16 @@
+<!--
+ - Copyright 2016-2017. Individual ownership panw
+ -
+ - Tech blog at http://blog.csdn.net/hatsune_miku_.
+ -
+ - Contact Mailbox at mikuismywifu@gmail.com.
+ -
+ - panwang All Rights Reserved.
+-->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="logImpl" value="LOG4J2" />
+	</settings>
+</configuration>

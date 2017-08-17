@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hatsunemiku.data.customer.dao.AccountMapperCustomer">
+<resultMap id="selectAccount" type="com.hatsunemiku.data.model.Account"
+		   extends="com.hatsunemiku.data.entity.dao.AccountMapper.BaseResultMap">
+</resultMap>
+
+<!--<resultMap id="selectIdaAdminInfo" type="com.xinhua.manage.model.dto.AuthManageDto">-->
+	<!--<result column="id_" property="id" jdbcType="INTEGER" />-->
+	<!--<result column="username_" property="username" jdbcType="VARCHAR" />-->
+	<!--<result column="account_" property="account" jdbcType="VARCHAR" />-->
+	<!--<result column="admin_usable_" property="adminUsable" jdbcType="INTEGER" />-->
+	<!--<result column="usable_" property="usable" jdbcType="INTEGER" />-->
+	<!--<result column="auth_id_" property="authId" jdbcType="INTEGER" />-->
+<!--</resultMap>-->
+
+	<select id="selectByAccount" parameterType="com.hatsunemiku.data.model.Account" resultMap="selectAccount">
+		SELECT * FROM account
+		<where>
+			email_=#{email,jdbcType=VARCHAR}
+		</where>
+	</select>
+
+	<insert id="insertNewAccount" parameterType="com.hatsunemiku.data.model.Account"
+			useGeneratedKeys="true" keyProperty="id">
+		insert into account (account_, password_,create_time_,email_)
+		values (#{account,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR},
+		  now(),#{email,jdbcType=VARCHAR})
+	</insert>
+</mapper>

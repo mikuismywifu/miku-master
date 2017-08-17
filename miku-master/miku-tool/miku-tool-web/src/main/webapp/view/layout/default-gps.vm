@@ -1,0 +1,3 @@
+#parse("common/header/default-gps-header.vm")
+$screen_content
+#parse("common/footer/footer.vm")

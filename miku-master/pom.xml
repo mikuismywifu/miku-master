@@ -1,0 +1,25 @@
+<!--
+ - Copyright 2016-2017. Individual ownership panw
+ -
+ - Tech blog at http://blog.csdn.net/hatsune_miku_.
+ -
+ - Contact Mailbox at mikuismywifu@gmail.com.
+ -
+ - panwang All Rights Reserved.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.miku</groupId>
+    <artifactId>miku-master</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>miku</module>
+        <module>miku-tool</module>
+        <module>miku-freeopen-api</module>
+        <module>miku-common</module>
+    </modules>
+</project>

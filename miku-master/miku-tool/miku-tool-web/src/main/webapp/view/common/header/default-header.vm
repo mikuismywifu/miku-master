@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>
+        hatsunemiku
+    </title>
+    <link rel="stylesheet" href="${rc.contextPath}/css/style.css">
+    <link rel="stylesheet" href="${rc.contextPath}/css/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="${rc.contextPath}/css/toastr.min.css"/>
+    <script src="${rc.contextPath}/js/jquery.js"></script>
+    <script type="text/javascript" src="${rc.contextPath}/js/toastr.min.js"></script>
+    <script>
+        var ctxPath = "${rc.contextPath}/";
+    </script>
+</head>
+<body>

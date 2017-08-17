@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>
+        hatsunemiku
+    </title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>浏览器定位</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=0f5e4fc20130aeb9d399a3483decc2ba"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+    <script>
+        var ctxPath = "${rc.contextPath}/";
+    </script>
+</head>
+<body>
